@@ -217,6 +217,28 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.timelineContainer p{
+	padding-top: 10px;
+	margin-left: -20px;
+}
+
+.timelineContainer {
+	width: 50%;
+	display: table;
+	margin: 0 auto;
+}
+
+.projectContainer {
+	width: 50%;
+	display: table;
+	margin: 0 auto;
+}
+
+.usefulLinks {
+	float: left;
+	padding-left: 50px;
+	margin-top: 10px;
+}
 
 
 
