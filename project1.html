@@ -17,14 +17,27 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" src="purify.js"></script>
+    <script type="text/javascript">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		function CheckPass() {
+
+			var pass1 = "fxd2vw8"
+			var answer = prompt ("Please enter password.")
+
+      var cleanPass = DOMPurify.sanitize(answer);
+      answer = cleanPass;
+
+			if (answer == pass1)
+			{
+				window.location.href = "assets/Matthew_Jeffery_CV_2017.pdf"
+			}
+			else
+			{
+				confirm ("Please contact me for a password if you wish to view my CV.")
+			}
+		}
+</script>
   </head>
 
   <body>
@@ -67,7 +80,7 @@
         <h3>Useful links:</h3>
          <p> <a href="projectTimeline.html">Project Timeline</a></p>
          <p> <a href="https://opbitproject.wordpress.com/project-assessment/">Project Assessment</a></p>
-         <p> <a href="passwordCV.html">Resume</a></p>
+         <p> <a href="javascript:CheckPass();">Resume</a></p>
 	  <br>
  </div>
 	  
