@@ -20,11 +20,10 @@
     <script type="text/javascript" src="purify.js"></script>
     <script type="text/javascript">
 
-    function CheckPass() {
-
+    function CheckPass()
+    {
       var pass1 = "fxd2vw8"
       var answer = prompt ("Please enter password to view my CV.")
-
       var cleanPass = DOMPurify.sanitize(answer);
       answer = cleanPass;
 
@@ -57,8 +56,9 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="project1.html">Project 1</a></li>
+            <li><a href="project2.html">Project 2</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#works">Works</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -81,68 +81,85 @@
      <p> <a href="projectTimeline.html">Project Timeline</a></p>
      <p> <a href="https://opbitproject.wordpress.com/project-assessment/">Project Assessment</a></p>
      <p> <a href="javascript:CheckPass();">Resume</a></p>
+     <p> <a href="story.html">Story</a></p>
 	  <br>
   </div>
-	  
-    <div class="timelineContainer">
-		<h1>Project Timeline</h1>
-		  <ul>
-			<p>Week 1</p>
-        <li>Chose to join the IoT project group</li>
-        <li>Signed up to the Mattermost channel</li>
-        <li>Joined the Dunedin IoT Slack channel</li>
-			<p>Week 2</p>
-        <li>Picked tasks to work on with Patrick and Nick</li>
-        <li>Began research on LoRaWAN and IoT</li>
-        <li>Conducted research on the Markdown language</li>
-			<p>Week 3</p>
-        <li>Converted LoRaWAN research to Markdown format</li>
-        <li>Created a local live version of teh GitHub pages to personally modify</li>
-        <li>Edited styling for LoRaWAN research on GitHub</li>
-			<p>Week 4</p>
-        <li>Recieved LoRaWAN and IoT research from Patrick and Nick</li>
-        <li>Converted the LoRaWAN and IoT research into Markdown format</li>
-        <li>Recieved FAQ answers from Patrick and converted them into Markdown</li>
-        <li>Edited styling for Nav bar and research pages</li>
-        <li>Added links to the research under the dropdown menu in the Nav bar</li>
-        <li>Added FAQ button to the top Nav bar</li>
-      <p>Week 5</p>
-        <li>Began documenting work from previous week</li>
-        <li>Started working on personal portfolio</li>
-      	<li>Expanded LoRaWAN section on home page of website</li>
-      	<li>Compared feature and functionality between LoRaWAN and other technologies</li>
-      	<li>Added network diagram of our network design to our website home page</li>
-      <p>Week 6</p>
-        <li>Updated Current status and Future goals sections under web site home page</li>
-        <li>Documented research on LoRaWAN and other technologies on web site</li>
-        <li>Planned the next steps to finishing the main task output with Zoe and Nick</li>
-        <li>Changed absolute links on website to relative ones</li>
-        <li>Had to research how to make a base URL in markdown format to create relative links for them</li>
-      <p>Week 7</p>
-	<li>Expanded Our Mission section and added more details to the home page</li>
-	<li>Added a Network Infrastrure section to the website</li>
-	<li>Added more information to the Network Infrastructure section</li>
-	<li>Updated the network diagram image as it needed the spelling corrected</li>
-      <p>Week 8</p>
-	<li>Fixed problem with drop-down button not autosizing the width when resizing the window</li>
-	<li>Added a new page to the github website called Quick Start</li>
-	<li>Added a button on the navigation bar to link to the new Quick Start page</li>
-	<li>Added a contact email to the bottom of the FAQ page to allow users to ask questions that weren't covered</li>
-	<li>Changed all of the hard links to relative throughout all files in the website</li>
-	<li>Held a meeting with Zoe for all the group members to sit down and discuss content on the GitHub pages website</li>
-      <p>Week 9</p>
-	<li>Removed a link to the server page in the dropdown menu on the website</li>
-	<li>Conducted research on LoRaWAN Dragino shield</li>
-	<li>Went through the Dragino node configuration for Aus and NZ frequencies (AU915 MHz) on Thomas's website</li>
-	<li>Analysed the DraginoTemp Arduino file and made sense of the code to gain further understanding of how it all works</li>
-       <p>Week 10</p>
-	 <li>Implemented bootstrap theme for website</li>
-	 <li>Tidied up pages and fixed broken links</li>
-	 <li>Fixed problem with css not being applied to all pages on website</li>
-	 <li>Added About page to website and included team members blurbs</li>
+
+<div class="timelineContainer">
+<h1>Project Timeline</h1>
+<ul>
+	<p>Week 1</p>
+    <li>Chose to join the IoT project group</li>
+    <li>Signed up to the Mattermost channel</li>
+    <li>Joined the Dunedin IoT Slack channel</li>
+	<p>Week 2</p>
+    <li>Picked tasks to work on with Patrick and Nick</li>
+    <li>Began research on LoRaWAN and IoT</li>
+    <li>Conducted research on the Markdown language</li>
+	<p>Week 3</p>
+    <li>Converted LoRaWAN research to Markdown format</li>
+    <li>Created a local live version of teh GitHub pages to personally modify</li>
+    <li>Edited styling for LoRaWAN research on GitHub</li>
+	<p>Week 4</p>
+    <li>Recieved LoRaWAN and IoT research from Patrick and Nick</li>
+    <li>Converted the LoRaWAN and IoT research into Markdown format</li>
+    <li>Recieved FAQ answers from Patrick and converted them into Markdown</li>
+    <li>Edited styling for Nav bar and research pages</li>
+    <li>Added links to the research under the dropdown menu in the Nav bar</li>
+    <li>Added FAQ button to the top Nav bar</li>
+  <p>Week 5</p>
+    <li>Began documenting work from previous week</li>
+    <li>Started working on personal portfolio</li>
+  	<li>Expanded LoRaWAN section on home page of website</li>
+  	<li>Compared feature and functionality between LoRaWAN and other technologies</li>
+  	<li>Added network diagram of our network design to our website home page</li>
+  <p>Week 6</p>
+    <li>Updated Current status and Future goals sections under web site home page</li>
+    <li>Documented research on LoRaWAN and other technologies on web site</li>
+    <li>Planned the next steps to finishing the main task output with Zoe and Nick</li>
+    <li>Changed absolute links on website to relative ones</li>
+    <li>Had to research how to make a base URL in markdown format to create relative links for them</li>
+  <p>Week 7</p>
+  	<li>Expanded Our Mission section and added more details to the home page</li>
+  	<li>Added a Network Infrastrure section to the website</li>
+  	<li>Added more information to the Network Infrastructure section</li>
+  	<li>Updated the network diagram image as it needed the spelling corrected</li>
+  <p>Week 8</p>
+  	<li>Fixed problem with drop-down button not autosizing the width when resizing the window</li>
+  	<li>Added a new page to the github website called Quick Start</li>
+  	<li>Added a button on the navigation bar to link to the new Quick Start page</li>
+  	<li>Added a contact email to the bottom of the FAQ page to allow users to ask questions that weren't covered</li>
+  	<li>Changed all of the hard links to relative throughout all files in the website</li>
+  	<li>Held a meeting with Zoe for all the group members to sit down and discuss content on the GitHub pages website</li>
+  <p>Week 9</p>
+  	<li>Removed a link to the server page in the dropdown menu on the website</li>
+  	<li>Conducted research on LoRaWAN Dragino shield</li>
+  	<li>Went through the Dragino node configuration for Aus and NZ frequencies (AU915 MHz) on Thomas's website</li>
+  	<li>Analysed the DraginoTemp Arduino file and made sense of the code to gain further understanding of how it all works</li>
+  <p>Week 10</p>
+  	 <li>Implemented bootstrap theme for website</li>
+  	 <li>Tidied up pages and fixed broken links</li>
+  	 <li>Fixed problem with css not being applied to all pages on website</li>
+     <li>Added About page to website and included team members blurbs</li>
 	<p>Week 11</p>
-         <li>Made changes to the Dragino 915 shield tutorial</li>
-         <li>Added a link to the draginoshield tutorial on the node page</li>
+     <li>Made changes to the Dragino 915 shield tutorial</li>
+     <li>Added a link to the draginoshield tutorial on the node page</li>
+ <p>Week 12</p>
+    <li>Added a quick start guide to the draginoshield tutorial on the website</li>
+    <li>Got Patrick Loots to review my changes to the tutorial and test it out himself</li>
+  <p>Week 13</p>
+   <li>Implemented Google Maps API into the showcase website</li>
+   <li>Added markers based on a GPS location to the map</li>
+   <p>Week 14</p>
+          <li>Made a window appear when the marker is clicked on the map giving a brief description of the node</li>
+          <li>Made it so the user only needed to hover over the marker to get a brief description of the node, and made it so when the user clicks on the marker it will take them to a new page for that specific node.</li>
+          <li>Got code from Brendan Kelly that he used to make a temperature/humidity sensor and converted the logic to read moisture from the draginoshield moisture sensor.</li>
+  <p>Week 15</p>
+         <li>To be filled...</li>
+         <li>To be filled...</li>
+   <p>Week 16</p>
+         <li>To be filled...</li>
+         <li>To be filled...</li>
       </ul>
     </div>
 
@@ -167,7 +184,7 @@
         <div class="col-lg-2">
           <a href="#"><i class="fa fa-tumblr"></i></a>
         </div>
-      
+
       </div><!-- /row -->
     </div><!-- /container -->
   </div><!-- /social -->
@@ -178,7 +195,7 @@
         <div class="col-lg-4">
           <p><b>Software Engineering Portfolio</b></p>
         </div>
-      
+
         <div class="col-lg-4">
           <p>Currently studying Bachelor in IT at the Otago Polytechnic</p>
         </div>
@@ -188,7 +205,7 @@
       </div>
     </div>
   </div><!-- /footerwrap -->
-  
+
 
 
     <!-- Bootstrap core JavaScript
