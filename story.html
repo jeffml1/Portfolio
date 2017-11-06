@@ -18,26 +18,7 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
     <script type="text/javascript" src="purify.js"></script>
-    <script type="text/javascript">
-
-		function CheckPass() {
-
-			var pass1 = "fxd2vw8"
-			var answer = prompt ("Please enter password to view my CV.")
-
-      var cleanPass = DOMPurify.sanitize(answer);
-      answer = cleanPass;
-
-			if (answer == pass1)
-			{
-				window.location.href = "assets/Matthew_Jeffery_CV_2017.pdf"
-			}
-			else
-			{
-				confirm ("Please contact me for a password if you wish to view my CV.")
-			}
-		}
-</script>
+    <script type="text/javascript" src="assets/js/passwordValidator.js"></script>
   </head>
 
   <body>
@@ -83,6 +64,8 @@
          <p> <a href="https://opbitproject.wordpress.com/project-assessment/">Project Assessment</a></p>
          <p> <a href="javascript:CheckPass();">Resume</a></p>
          <p> <a href="story.html">Story</a></p>
+         <p> <a href="techProf.html">Technical Proficiency</a></p>
+         <p> <a href="proProf.html">Professional Proficiency</a></p>
 	  <br>
  </div>
 

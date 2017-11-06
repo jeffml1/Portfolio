@@ -104,6 +104,31 @@ h1, h2, h3, h4, h5, h6 {
   width: 450px;
   height: 250px;
 }
+
+.star-icon {
+	color: #ddd;
+	font-size: 2em;
+	position: relative;
+}
+
+.star-icon.full:before {
+	text-shadow: 0 0 2px rgba(0,0,0,0.7);
+	color: #FDE16D;
+	content: '\2605'; /* Full star in UTF-8 */
+	position: absolute;
+	left: 0;
+}
+
+.star-icon.half:before {
+	text-shadow: 0 0 2px rgba(0,0,0,0.7);
+	color: #FDE16D;
+	content: '\2605'; /* Full star in UTF-8 */
+	position: absolute;
+	left: 0;
+	width: 50%;
+	overflow: hidden;
+}
+
 #headerwrap {
 	background: url(../img/back.jpg) no-repeat center top;
 	margin-top: -70px;
@@ -239,6 +264,13 @@ h1, h2, h3, h4, h5, h6 {
 	display: table;
 	margin: 0 auto;
 	margin-top: -210px;
+}
+
+.proficiencyContainer {
+	width: 50%;
+	display: table;
+	margin: 0 auto;
+	margin-top: -310px;
 }
 
 .usefulLinks {
