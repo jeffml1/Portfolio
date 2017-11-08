@@ -259,6 +259,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: -210px;
 }
 
+.tasksContainer {
+	width: 50%;
+	display: table;
+	margin: 0 auto;
+	margin-top: -310px;
+}
+
 .projectContainer {
 	width: 50%;
 	display: table;
